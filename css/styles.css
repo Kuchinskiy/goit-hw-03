@@ -7,11 +7,21 @@
 	--main-color-title: #2e2f42;
 }
 
-/* Header */
-
-.header {
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
 	background-color: #ffffff;
 }
+
+.wrapper {
+	width: 1158px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Header */
 
 .logo {
 	font-size: 18px;
@@ -81,7 +91,8 @@
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* Section 1 - 2 - 3 --> subtitle*/
+/* Section#1 Our advantages
+.subtitle <<-- for #1, #2, #3 sections*/
 
 .section-features {
 	background-color: #ffffff;
@@ -94,7 +105,8 @@
 	color: var(--main-color-title);
 }
 
-/* Section 2 - 3 --> section-title*/
+/* Section#2 Our Team
+.section-title <<-- for #2, #3 sections*/
 
 .section-team {
 	background-color: #f4f4fd;
@@ -107,7 +119,7 @@
 	color: var(--main-color-title);
 }
 
-/* Section 3 */
+/* Section#3 Our Portfolio*/
 
 .section-portfolio {
 	background-color: #ffffff;
