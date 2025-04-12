@@ -121,7 +121,16 @@
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
+	margin-bottom: 72px;
 	color: var(--main-color-title);
+}
+
+.section-title.add-padding {
+	padding-top: 120px;
+}
+
+.list-team {
+	padding-bottom: 120px;
 }
 
 /* Footer */
