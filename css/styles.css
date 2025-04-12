@@ -23,6 +23,11 @@
 	outline: 2px solid green;
 }
 
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
 /* Header */
 
 .logo {
@@ -96,10 +101,6 @@
 /* Section#1 Our advantages
 .subtitle <<-- for #1, #2, #3 sections*/
 
-.section-features {
-	background-color: #ffffff;
-}
-
 .subtitle {
 	font-size: 20px;
 	font-weight: 500;
@@ -110,7 +111,9 @@
 /* Section#2 Our Team
 .section-title <<-- for #2, #3 sections*/
 
-.section-team {
+.section.no-padding {
+	padding-top: 0;
+	padding-bottom: 0;
 	background-color: #f4f4fd;
 }
 
@@ -119,12 +122,6 @@
 	line-height: 1.11;
 	text-align: center;
 	color: var(--main-color-title);
-}
-
-/* Section#3 Our Portfolio*/
-
-.section-portfolio {
-	background-color: #ffffff;
 }
 
 /* Footer */
